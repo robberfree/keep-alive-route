@@ -40,7 +40,7 @@ export default function List() {
           width: "100%",
         }}
       >
-        加载
+        view more
       </button>
     </div>
   );
