@@ -1,0 +1,22 @@
+{
+  "name": "keep-alive-route",
+  "version": "0.1.0",
+  "description": "A new route that can keep alive for react-router-dom",
+  "module": "./build/KeepAliveRoute.esm.js",
+  "author": "robberfree",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "peerDependencies": {
+    "react": "^16.14.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@rollup/plugin-babel": "^5.2.1",
+    "rollup": "^2.31.0"
+  }
+}
