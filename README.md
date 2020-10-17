@@ -1,6 +1,6 @@
 # keep-alive-route
 
-[demo](./demo/build/index.html)
+[demo](https://robberfree.github.io/keep-alive-route/demo/build/index.html#/)
 
 ## why do we need KeepAliveRoute component？
 
