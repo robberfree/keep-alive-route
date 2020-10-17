@@ -15,7 +15,7 @@ Maybe two ways:
 
 1. when route change, don't destroy old component. ✅
 
-2. save old component's state data.Use the old data to restore the component's state when it is created again.
+2. save old component's state data. Use the old data to restore the component's state when it is created again.
 
 KeepAliveRoute adopt first way. This method is simple and straightforward, but overuse may cause memory leaks.
 

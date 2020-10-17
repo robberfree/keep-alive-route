@@ -1,10 +1,22 @@
 {
   "name": "keep-alive-route",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "KeepAliveRoute for react-router-dom",
   "module": "./build/KeepAliveRoute.esm.js",
   "author": "robberfree",
+  "keywords": [
+    "keep alive",
+    "route",
+    "react route",
+    "keep alive route",
+    "cache route"
+  ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robberfree/keep-alive-route.git"
+  },
+  "homepage": "https://github.com/robberfree/keep-alive-route",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w"
