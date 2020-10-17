@@ -1,7 +1,7 @@
 {
   "name": "keep-alive-route",
   "version": "0.1.0",
-  "description": "A new route that can keep alive for react-router-dom",
+  "description": "KeepAliveRoute for react-router-dom",
   "module": "./build/KeepAliveRoute.esm.js",
   "author": "robberfree",
   "license": "MIT",
