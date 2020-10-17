@@ -7,7 +7,7 @@ import { Route, useLocation, useRouteMatch } from "react-router-dom";
 export default function KeepAliveRoute(props) {
   //is the component mounted?
   const [isMounted, setIsMounted] = useState(false);
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true);
 
   //is route matched?
   const match = useRouteMatch(props);
@@ -28,11 +28,9 @@ export default function KeepAliveRoute(props) {
     }
   }
 
-  return isMounted ? (
+  return (
     <div style={{ display: visible ? "block" : "none" }}>
       <Route {...props}></Route>
     </div>
-  ) : (
-    <Route {...props}></Route>
   );
 }

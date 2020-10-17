@@ -8,7 +8,7 @@ import { useRouteMatch, useLocation, Route } from 'react-router-dom';
 function KeepAliveRoute(props) {
   //is the component mounted?
   const [isMounted, setIsMounted] = useState(false);
-  const [visible, setVisible] = useState(false); //is route matched?
+  const [visible, setVisible] = useState(true); //is route matched?
 
   const match = useRouteMatch(props); //current path
 
@@ -33,11 +33,11 @@ function KeepAliveRoute(props) {
     }
   }
 
-  return isMounted ? /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/React.createElement("div", {
     style: {
       display: visible ? "block" : "none"
     }
-  }, /*#__PURE__*/React.createElement(Route, props)) : /*#__PURE__*/React.createElement(Route, props);
+  }, /*#__PURE__*/React.createElement(Route, props));
 }
 
 export default KeepAliveRoute;
